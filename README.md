@@ -51,7 +51,7 @@ The architecture follows AWS best practices for networking and security:
 - Assign IAM roles for EC2 instances as needed.
 
 ## Deployment Video
-[Watch the Full Deployment](./video.mp4)
+[Watch the Full Deployment](https://drive.google.com/file/d/1eeOMBs2Jikvnr1dV8FLNc_STp9MIAbC3/view?usp=sharing)
 
 ## Conclusion
 This project provides a hands-on demonstration of setting up a secure and scalable AWS VPC. The architecture ensures controlled access and best practices in cloud networking. Feel free to fork, modify, and expand upon this setup!
