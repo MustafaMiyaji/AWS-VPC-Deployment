@@ -6,8 +6,8 @@ This project provides a detailed implementation of an AWS Virtual Private Cloud 
 ## Architecture Details
 The architecture follows AWS best practices for networking and security:
 - **Virtual Private Cloud (VPC)**: Created with a CIDR block of `10.0.0.0/16`.
-- **Public Subnet (`10.0.0.0/24`)**: Hosts web servers and a NAT Gateway.
-- **Private Subnet (`10.0.1.0/24`)**: Houses database servers.
+- **Public Subnet (`192.168.1.0/24`)**: Hosts web servers and a NAT Gateway.
+- **Private Subnet (`192.168.2.0/24`)**: Houses database servers.
 - **Bastion Host**: Placed in the public subnet for secure SSH access to private subnet instances.
 - **Internet Gateway (IGW)**: Enables internet access for the public subnet.
 - **NAT Gateway**: Allows outbound internet traffic from the private subnet.
